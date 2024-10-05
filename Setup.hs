@@ -44,9 +44,8 @@ lookupFlagAssignment = lookup
 
 supportedLLVMVersions :: [Version]
 supportedLLVMVersions =
-  [ mkVersion [19,99,99]  -- TODO find a proper fix for this so all versions of 19 are allowed
-  , mkVersion [18,99,99]  -- TODO find a proper fix for this so all versions of 18 are allowed
-  , mkVersion [17,99,99]  -- TODO find a proper fix for this so all versions of 17 are allowed
+  [ mkVersion [18,99,99]  -- TODO find a proper fix for this so all versions of 18 are allowed
+  , mkVersion [17,0,0]
   , mkVersion [16,0,0]
   , mkVersion [15,0,0]
   ]
